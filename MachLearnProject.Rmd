@@ -3,7 +3,6 @@ title: "Machine Learning Project"
 author: "S. Purvis"
 date: "February 12, 2018"
 output: 
-      pdf_document: default
       html_document: 
       keep_md: true
 ---
@@ -217,7 +216,7 @@ rf.pred <- predict(train.model.rf, validation)
 confusionMatrix(rf.pred, validation$classe)
 ```
   
-**We are able to use 4 variables to build a model with 99% accuracy.**
+**We are able to use 4 variables to build a model with 99% accuracy and the out of sample error is 0.59%.**
 
 ### Prediction on Test Data
 ```{r TestPrediction}
