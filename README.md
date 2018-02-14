@@ -8,4 +8,4 @@ output:
 ---
 
 
-xxxxxx
+This git repository contains the this README file and the complete course project for Machine Learning
